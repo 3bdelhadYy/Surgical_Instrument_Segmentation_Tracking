@@ -1,0 +1,7 @@
+tracking:
+  enable_smoothing: true
+  match_iou_threshold: 0.25
+  max_center_distance: 150.0
+  max_lost_frames: 15
+  min_confidence: 0.2
+  smoothing_alpha: 0.6

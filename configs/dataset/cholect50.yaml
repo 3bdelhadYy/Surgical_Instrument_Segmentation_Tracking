@@ -1,0 +1,20 @@
+dataset:
+  class_names:
+  - grasper
+  - bipolar
+  - hook
+  - scissors
+  - clipper
+  - irrigator
+  ignore_mask_values:
+  - 0
+  image_extensions:
+  - .png
+  mask_extensions:
+  - .png
+  name: cholect50_phase1
+  output_root: data/cholect50_phase1
+  splits:
+    test: 0.2
+    train: 0.6
+    val: 0.2

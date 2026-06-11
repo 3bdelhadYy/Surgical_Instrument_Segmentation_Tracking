@@ -1,0 +1,20 @@
+model:
+  checkpoint: yolo11n-seg.pt
+output:
+  root: outputs/demo
+  save_frame_predictions: false
+  save_video: true
+  video_codec: mp4v
+runtime:
+  conf_threshold: 0.25
+  device: auto
+  image_size: 640
+  iou_threshold: 0.45
+  max_frames: -1
+tracking:
+  enable_smoothing: true
+  match_iou_threshold: 0.25
+  max_center_distance: 150.0
+  max_lost_frames: 15
+  min_confidence: 0.2
+  smoothing_alpha: 0.6

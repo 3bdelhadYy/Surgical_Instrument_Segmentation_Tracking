@@ -1,0 +1,7 @@
+dataset:
+  prepared_root: data/cholect50_phase1
+  split: val
+predictions:
+  root: outputs/predictions/val
+report:
+  output_path: outputs/reports/segmentation_eval.json

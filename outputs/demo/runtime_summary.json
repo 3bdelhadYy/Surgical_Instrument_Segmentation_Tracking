@@ -1,0 +1,14 @@
+{
+  "video_path": "/content/drive/MyDrive/CV_Tasks/cholect50-challenge-val/videos/VID75",
+  "frame_count": 141,
+  "average_latency_ms": 43.25393609925665,
+  "worst_latency_ms": 124.16942100026063,
+  "fps": 23.119283241766887,
+  "peak_gpu_memory_mb": 241.5537109375,
+  "tracking": {
+    "active_tracks": 2,
+    "id_switches": 0,
+    "recovered_tracks": 70,
+    "average_track_length": 45.5
+  }
+}
